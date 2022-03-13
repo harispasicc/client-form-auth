@@ -1,0 +1,190 @@
+.Form {
+  margin-top: 50px;
+  background-color: white;
+  height: 140vh;
+  width: 100vw;
+}
+.form-title{
+text-align: center;
+}
+
+.input-field {
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.input-field > label {
+  border-radius: 10px;
+  max-width: 100%;
+  opacity: 1px;
+  display: flex;
+  align-items: center;
+  background: white;
+  z-index: 9;
+  padding: 3px;
+  bottom: 30px;
+  }
+
+.attachmentsBlock {
+  height: 128px;
+  padding: 0%;
+  display: none;
+}
+
+.uploadFilesIcon {
+  font-size: 50px;
+  color: gray;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+}
+
+.uploadIcon {
+  border: 1px double #cccccc;
+  padding: 25px;
+  max-width: 100%;
+  height: 100px;
+}
+
+.text-muted {
+  justify-content: left;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.SelectBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagNameBox {
+  display: flex;
+  width: 70%;
+}
+
+.tagNameBox > label {
+  border-radius: 10px;
+  max-width: 100%;
+  opacity: 1px;
+  display: flex;
+  align-items: center;
+  background: white;
+  z-index: 9;
+  padding: 3px;
+  bottom: 30px;
+}
+
+.SelectBox  .comd-react-select__value-container > span > div {
+  border-radius: 20px;
+  max-width: 100%;
+  background-color: #2d81ff ;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  color: white;
+}
+
+.SelectBox .comd-react-select__value-container > span{
+  margin-right: 10px;
+  position: relative;
+  top: -4px;
+}
+
+
+.SelectBox  .comd-react-select__value-container > span > div > div > span > div {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.SelectBox .comd-react-select__value-container > span > div > div > div > div > button  {
+  width: 1.857rem;
+  height: 1.857rem;
+  line-height: 1.857rem;
+  min-height: 30px;
+  top: 2px;
+  right: 2px;
+  position: absolute;
+}
+
+.SelectBox .comd-react-select__indicators {
+    margin-top: 0;
+}
+
+.SelectBox .comd-react-select__indicators > button{
+  position: relative;
+  top: -2px;
+}
+
+.btn-submit-wrapper .btn-submit {
+  display: inline-block;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 22px;
+  padding: 5px;
+  width: 120px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 10px;
+}
+
+.success-message {
+  font-size: 20px;
+  color: green;
+  animation: buttons 0.3s linear;
+  background: whitesmoke;
+  width: 250px;
+  height: 5vh;
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+  box-shadow: 0px 2px 8px 0px rgba(68, 66, 66, 0.2);
+}
+
+.btn-saveTag-wrapper .btn-save {
+  display: inline-block;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: -4%;
+  margin-left: 10%;
+}
+
+.btn-newTag-wrapper .btn-addNewTag {
+  display: inline-block;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 10%;
+  margin-top: 1px;
+}

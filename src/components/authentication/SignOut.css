@@ -1,0 +1,28 @@
+.signout {
+  width: 100vw;
+  display: inline-block;
+  margin-bottom: -20px;
+  margin-top: -20px;
+  padding: 5px;
+}
+
+.signout-btn {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.update-logout-btn {
+  padding: 10px 10px;
+  cursor: pointer;
+  width: 100%;
+  align-items: center;
+}
+
+.text-pw {
+  justify-content: left;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}

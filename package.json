@@ -1,0 +1,93 @@
+{
+  "name": "firebase-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@confirmit/global-styles": "5.8.1",
+    "@confirmit/react-alert": "6.0.1",
+    "@confirmit/react-banner": "11.0.54",
+    "@confirmit/react-busy-dots": "3.0.4",
+    "@confirmit/react-button": "6.4.13",
+    "@confirmit/react-chip": "5.1.37",
+    "@confirmit/react-color-picker": "5.0.61",
+    "@confirmit/react-confirmation-dialog": "1.0.62",
+    "@confirmit/react-contexts": "0.3.0",
+    "@confirmit/react-date-picker": "16.0.10",
+    "@confirmit/react-dropdown": "8.4.4",
+    "@confirmit/react-dropzone": "0.2.59",
+    "@confirmit/react-empty-state": "0.1.5",
+    "@confirmit/react-fieldset": "0.1.34",
+    "@confirmit/react-icons": "2.52.0",
+    "@confirmit/react-link": "2.1.42",
+    "@confirmit/react-modal": "6.2.32",
+    "@confirmit/react-pager": "8.0.62",
+    "@confirmit/react-popover": "8.0.8",
+    "@confirmit/react-portal-trigger": "5.2.2",
+    "@confirmit/react-scroll-wrapper": "0.1.12",
+    "@confirmit/react-search-field": "7.2.15",
+    "@confirmit/react-section": "7.8.3",
+    "@confirmit/react-select": "6.5.42",
+    "@confirmit/react-simple-link": "0.2.3",
+    "@confirmit/react-switch": "7.2.37",
+    "@confirmit/react-table": "10.4.3",
+    "@confirmit/react-tabs": "9.2.4",
+    "@confirmit/react-tag": "0.1.17",
+    "@confirmit/react-text-field": "7.0.42",
+    "@confirmit/react-textarea": "8.0.42",
+    "@confirmit/react-themes": "5.0.4",
+    "@confirmit/react-toggle": "3.3.1",
+    "@confirmit/react-toggle-button": "4.1.14",
+    "@confirmit/react-tooltip": "8.1.8",
+    "@confirmit/react-truncate": "2.2.1",
+    "@confirmit/react-utils": "3.1.1",
+    "@confirmit/react-wait-button": "5.0.22",
+    "@confirmit/react-z-index": "3.0.1",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "alert": "^5.0.10",
+    "antd": "^4.18.2",
+    "boolean": "^3.1.4",
+    "bootstrap": "^5.1.3",
+    "firebase": "9.4.1",
+    "ionicons": "^6.0.0",
+    "json": "^11.0.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.4",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.22.5",
+    "react-icons": "^4.3.1",
+    "react-modal": "^3.14.4",
+    "react-outside-click-handler": "^1.3.0",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^5.0.0",
+    "sweet": "^0.1.1",
+    "update": "^0.7.4",
+    "web-vitals": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

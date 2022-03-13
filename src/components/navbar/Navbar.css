@@ -1,0 +1,248 @@
+.navbar {
+  background: white;
+  height: 80px;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 4px 0 rgba(68, 66, 66, 0.2);
+  display: flex;
+  align-items: center;
+  width: 100vw;
+}
+
+.menu-bars {
+  font-size: 1.75rem;
+  background: none;
+  position: absolute;
+}
+
+.menu-bars .hamburger {
+  margin-left: 320px;
+}
+
+.menu-bars .close {
+  margin-left: 200px;
+}
+
+.nav-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: absolute;
+}
+
+.navbar-logo {
+  color: black;
+  display: flex;
+  justify-self: start;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 2rem;
+  text-decoration: none;
+  margin-left: 10px;
+  width: 10rem;
+  list-style: none;
+}
+
+.Forsta-logo {
+  width: 146px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.Nav-menu {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  justify-content: flex-end;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.nav-links {
+  text-decoration: none;
+  font-size: 1.75rem;
+  padding: 13px 10px;
+  margin-right: 2rem;
+  color: black;
+}
+
+.nav-links:hover {
+  background-color: whitesmoke;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.sidebar-menu {
+  background-color: whitesmoke;
+  width: 280px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 80px;
+  bottom: 20px;
+  left: -100%;
+  transition: 850ms;
+  z-index: 999;
+  transform: width 0.5s;
+  box-shadow: 0 10px 40px 0 rgba(58, 54, 54, 0.2);
+}
+
+.sidebar-menu ul {
+  width: 100%;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.sidebar-menu ul li {
+  position: relative;
+  list-style: none;
+  width: 100%;
+}
+
+.sidebar-menu ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+}
+
+.sidebar-toggle {
+  background-color: whitesmoke;
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.sidebar-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.sidebar-span {
+  margin-left: 16px;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4em;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 5px 16px;
+  border-radius: 7px;
+}
+
+.sidebar-menu-items {
+  width: 100%;
+}
+
+.nav-text a:hover {
+  background-color: rgb(252, 252, 252);
+}
+
+.dropdown-menu {
+  background: whitesmoke;
+  width: 175px;
+  top: 80px;
+  list-style: none;
+  text-align: start;
+  display: inline-block;
+  right: 10px;
+  margin-top: 10px;
+  margin-right: 50px;
+  box-shadow: 0 2px 4px 0 rgba(68, 66, 66, 0.2);
+  z-index: 5;
+}
+
+.dropdown-menu li {
+  background: whitesmoke;
+  cursor: pointer;
+  color: black;
+}
+
+.dropdown-menu li:hover {
+  background: rgb(252, 252, 252);
+  border-radius: 10px;
+}
+
+.dropdown-menu.clicked {
+  display: none;
+}
+
+.dropdown-link {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+}
+
+.dropdown-span {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.dropdown-notification {
+  background: whitesmoke;
+  width: 250px;
+  height: 8vh;
+  list-style: none;
+  text-align: start;
+  margin-top: 10px;
+  display: inline-block;
+  right: 10px;
+  margin-right: 140px;
+  box-shadow: 0px 2px 8px 0px rgba(68, 66, 66, 0.2);
+  padding: 5px;
+  position: absolute;
+  z-index: 3;
+}
+
+.dropdown-notification li {
+  background: whitesmoke;
+  cursor: pointer;
+  color: black;
+  margin-top: 5px;
+}
+
+.dropdown-notification li:hover {
+  background: rgb(252, 252, 252);
+  border-radius: 10px;
+}
+
+.dropdown-notification.clicked {
+  display: none;
+}
+
+.dropdownNotification-span {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 10px;
+}
